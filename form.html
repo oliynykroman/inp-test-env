@@ -31,6 +31,28 @@
   const form = document.getElementById('f');
   const status = document.getElementById('status');
 
+  // Heavier workload knobs for realistic INP stress
+  const VALIDATION_WEIGHT = 30000;   // iterations per field (was 5000)
+  const SERIALIZE_WEIGHT  = 1500;    // iterations of form serialization per interaction
+
+  function heavySerialize(formEl){
+    // CPU-bound, synchronous work that keeps the main thread busy (affects INP in baseline)
+    const data = new FormData(formEl);
+    let acc = '';
+    for (let r = 0; r < SERIALIZE_WEIGHT; r++) {
+      for (const [k, v] of data.entries()) {
+        acc += k + '=' + v + '&' + r;
+      }
+      // cheap hash-like math churn
+      let h = 0;
+      for (let i = 0; i < acc.length; i++) {
+        h = (h * 33 + acc.charCodeAt(i)) | 0;
+      }
+      // transient JSON to add some allocation/GC pressure
+      JSON.stringify({ r, len: acc.length, h });
+    }
+  }
+
   // 🔧 Генеруємо 24 поля + блок дій у JS (без шаблонів у HTML)
   form.innerHTML = [
     ...Array.from({length: 24}, (_, i) =>
@@ -45,7 +67,12 @@
   // Навмисно «важка» валідація, щоб було що оптимізувати для INP
   function validateField(el){
     const v = el.value || ''; let ok = true;
-    for (let i=0; i<5000; i++) ok = ok && /(?!.*\s{2,})^[\w\s.-]{0,64}$/.test(v + i);
+    for (let i = 0; i < VALIDATION_WEIGHT; i++) {
+      ok = ok && /(?!.*\s{2,})^[\w\s.-]{0,64}$/.test(v);
+      // numeric churn to simulate CPU load
+      let x = (i * 2654435761) | 0;       // Knuth multiplier
+      x = Math.imul(x ^ (x >>> 13), 1274126177);
+    }
     return ok;
   }
 
@@ -77,6 +104,13 @@
     for (const el of form.querySelectorAll('input')){
       el.value = Math.random().toString(36).slice(2,8);
     }
+    // Do synchronous churn to impact the 'fill' interaction in baseline; yield when slicing is enabled
+    if (VARIANT.slicing) {
+      if (VARIANT.prioritization) await postTask(() => heavySerialize(form), 'user-visible');
+      else await postTask(() => heavySerialize(form));
+    } else {
+      heavySerialize(form);
+    }
     await processHeavyWork();
   });
 
@@ -85,7 +119,18 @@
     e.preventDefault();
     status.textContent = 'Валідація…';
     const ok = await validateAll();
+
+    // Heavier synchronous work to align with the submit interaction
+    if (VARIANT.slicing) {
+      if (VARIANT.prioritization) await postTask(() => heavySerialize(form), 'background');
+      else await postTask(() => heavySerialize(form));
+    } else {
+      heavySerialize(form);
+    }
+
+    // Additional CPU work (monolithic in baseline; sliced when I2/I3 enabled)
     await processHeavyWork();
+
     status.textContent = ok ? '✔ Дані валідні, надіслано.' : '✖ Помилки валідації.';
   });
 </script>
