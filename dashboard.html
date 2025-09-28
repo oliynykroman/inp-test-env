@@ -1,0 +1,86 @@
+
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>INP-first · Dashboard</title>
+  <link rel="stylesheet" href="./shared/styles.css" />
+  <style>
+    .row { display:grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap:.5rem; padding:.35rem .5rem; }
+    .row:nth-child(odd){ background:#101827; }
+    .list { max-height: 60vh; overflow:auto; border:1px solid #22354a; border-radius:12px; }
+  </style>
+</head>
+<body>
+<header><div class="container"><div id="panel"></div></div></header>
+<main class="container">
+  <div class="card">
+    <div class="grid cols-2">
+      <div class="group">
+        <button class="btn primary" id="sortName">Sort by name</button>
+        <button class="btn" id="filterTag">Filter tag=A</button>
+        <button class="btn" id="paginate">Next page</button>
+      </div>
+      <div class="group small">Rows: <span id="rowsCount"></span> · Page: <span id="page"></span></div>
+    </div>
+    <div id="list" class="list card" aria-label="items list"></div>
+  </div>
+  <div class="card footer">I5 Containment (якщо ввімкнено) ставиться на контейнер списку.</div>
+  <div id="app-root"></div>
+</main>
+
+<script type="module" src="./shared/rum.js"></script>
+<script type="module" src="./shared/panel.js"></script>
+<script type="module">
+  import { VARIANT, readVariantFromURL, attachHandlers, processHeavyWork, applyContainment } from './shared/interventions.js';
+  readVariantFromURL();
+
+  // dataset
+  const DS = Array.from({length: 3000}, (_,i)=>({
+    id:i+1,
+    name: 'Item ' + (i+1).toString().padStart(4,'0'),
+    price: Math.round(Math.random()*10000)/100,
+    tag: ['A','B','C'][Math.floor(Math.random()*3)]
+  }));
+
+  let page = 1; const PAGE_SIZE = 200; let view = [...DS];
+  const list = document.getElementById('list');
+  const rowsCount = document.getElementById('rowsCount');
+  const pageEl = document.getElementById('page');
+
+  function render(items) {
+    const start = (page-1)*PAGE_SIZE; const slice = items.slice(start, start+PAGE_SIZE);
+    list.innerHTML = '';
+    const frag = document.createDocumentFragment();
+    const header = document.createElement('div'); header.className='row'; header.innerHTML='<strong>Name</strong><strong>Price</strong><strong>Tag</strong><strong>ID</strong>';
+    frag.appendChild(header);
+    for (const it of slice) {
+      const r = document.createElement('div'); r.className='row';
+      r.innerHTML = `<div>${it.name}</div><div>$${it.price.toFixed(2)}</div><div>${it.tag}</div><div>${it.id}</div>`;
+      frag.appendChild(r);
+    }
+    list.appendChild(frag);
+    rowsCount.textContent = items.length; pageEl.textContent = String(page);
+    if (VARIANT.containment) applyContainment(list);
+  }
+
+  render(view);
+
+  const onAction = async (e, target) => {
+    if (target.id==='sortName') {
+      // heavy sort
+      view.sort((a,b)=>a.name.localeCompare(b.name));
+      await processHeavyWork();
+      render(view);
+    } else if (target.id==='filterTag') {
+      view = DS.filter(x=>x.tag==='A'); page = 1; await processHeavyWork(); render(view);
+    } else if (target.id==='paginate') {
+      page = page + 1; if ((page-1)*PAGE_SIZE >= view.length) page = 1; await processHeavyWork(); render(view);
+    }
+  };
+
+  attachHandlers({ container: document.body, selector:'#sortName, #filterTag, #paginate', handler: onAction });
+</script>
+</body>
+</html>

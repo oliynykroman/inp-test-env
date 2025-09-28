@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>INP-first · Content</title>
+    <link rel="stylesheet" href="./shared/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container"><div id="panel"></div></div>
+    </header>
+    <main class="container">
+      <div class="hero card">Контентна сторінка · hero</div>
+      <div class="card">
+        <h2>Акордеон</h2>
+        <div id="accordion" class="accordion"></div>
+        <div style="margin-top: 0.75rem">
+          <button class="btn primary" id="expand">Відкрити всі</button>
+          <button class="btn" id="collapse">Закрити всі</button>
+          <button class="btn" id="scroll">Scroll to hero</button>
+        </div>
+      </div>
+      <div class="card footer">
+        Підказка: відкрий DevTools → Performance і дивись INP/LoAF; у консолі
+        доступний <span class="kbd">window.__perf</span>.
+      </div>
+      <div id="app-root"></div>
+    </main>
+
+    <!-- RUM & Panel -->
+    <script type="module" src="./shared/rum.js"></script>
+    <script type="module" src="./shared/panel.js"></script>
+    <script type="module">
+      import {
+        VARIANT,
+        readVariantFromURL,
+        attachHandlers,
+        processHeavyWork,
+        mutate,
+      } from "./shared/interventions.js";
+      readVariantFromURL();
+      const acc = document.getElementById("accordion");
+      const root = document.getElementById("app-root");
+      const HEAVY_COUNT = 400; // number of DOM nodes to inject per interaction
+
+      function heavyDomChurn(cnt = HEAVY_COUNT) {
+        // create many small nodes to stress layout/paint; batching vs non-batching highlights I4
+        if (VARIANT.batching) {
+          mutate((frag) => {
+            for (let i = 0; i < cnt; i++) {
+              const note = document.createElement("div");
+              note.className = "card";
+              note.textContent = "Штучний елемент " + (i + 1);
+              frag.appendChild(note);
+            }
+          });
+        } else {
+          for (let i = 0; i < cnt; i++) {
+            const note = document.createElement("div");
+            note.className = "card";
+            note.textContent = "Штучний елемент " + (i + 1);
+            root.appendChild(note);
+          }
+        }
+      }
+
+      acc.innerHTML = Array.from(
+        { length: 18 },
+        (_, i) =>
+          `<details>
+     <summary>Розділ ${i + 1}</summary>
+     <p class="small">Lorem ipsum dolor sit amet…</p>
+   </details>`
+      ).join("");
+
+      // Heavier handlers to better expose INP/LoAF differences
+      const onAction = async (e, target) => {
+        if (target.id === "expand") {
+          for (const d of acc.querySelectorAll("details")) d.open = true;
+        } else if (target.id === "collapse") {
+          for (const d of acc.querySelectorAll("details")) d.open = false;
+        } else if (target.id === "scroll") {
+          document.querySelector(".hero").scrollIntoView({ behavior: "smooth" });
+        }
+
+        // Heavier workload to better expose INP and LoAF
+        await processHeavyWork();          // CPU chunk 1 (monolith in B0; sliced in I2)
+        heavyDomChurn();                   // many DOM ops (batched in I4 vs non-batched)
+        await processHeavyWork();          // CPU chunk 2
+
+        // Clean up inserted nodes to avoid unbounded growth
+        setTimeout(() => { root.innerHTML = ""; }, 0);
+      };
+
+      // attach listeners (delegated or direct)
+      attachHandlers({
+        container: document.body,
+        selector: "#expand, #collapse, #scroll",
+        handler: onAction,
+      });
+    </script>
+  </body>
+</html>

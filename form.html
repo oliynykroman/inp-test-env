@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>INP-first · Form</title>
+  <link rel="stylesheet" href="./shared/styles.css" />
+  <style>
+    form { display:grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap:.75rem; }
+    label { display:flex; flex-direction:column; gap:.35rem; }
+    .actions { grid-column: 1 / -1; display:flex; gap:.5rem; }
+  </style>
+</head>
+<body>
+<header><div class="container"><div id="panel"></div></div></header>
+<main class="container">
+  <div class="card">
+    <h2>Форма</h2>
+    <form id="f"></form>
+    <div id="status" class="small"></div>
+  </div>
+  <div id="app-root"></div>
+</main>
+
+<script type="module" src="./shared/rum.js"></script>
+<script type="module" src="./shared/panel.js"></script>
+<script type="module">
+  import { VARIANT, readVariantFromURL, processHeavyWork, postTask } from './shared/interventions.js';
+  readVariantFromURL();
+
+  const form = document.getElementById('f');
+  const status = document.getElementById('status');
+
+  // 🔧 Генеруємо 24 поля + блок дій у JS (без шаблонів у HTML)
+  form.innerHTML = [
+    ...Array.from({length: 24}, (_, i) =>
+      `<label>Поле ${i+1}<input type="text" name="f${i+1}" placeholder="value ${i+1}"></label>`
+    ),
+    `<div class="actions">
+       <button type="button" class="btn" id="fill">Заповнити випадково</button>
+       <button type="submit" class="btn primary">Надіслати</button>
+     </div>`
+  ].join('');
+
+  // Навмисно «важка» валідація, щоб було що оптимізувати для INP
+  function validateField(el){
+    const v = el.value || ''; let ok = true;
+    for (let i=0; i<5000; i++) ok = ok && /(?!.*\s{2,})^[\w\s.-]{0,64}$/.test(v + i);
+    return ok;
+  }
+
+  async function validateAll(){
+    const inputs = [...form.querySelectorAll('input')]; let all = true;
+    if (VARIANT.slicing) {
+      for (const el of inputs){
+        const run = () => {
+          const ok = validateField(el);
+          el.style.borderColor = ok ? '#2e7d32' : '#b33';
+          all = all && ok;
+        };
+        if (VARIANT.prioritization) await postTask(run, 'user-blocking');
+        else await postTask(run);
+      }
+    } else {
+      for (const el of inputs){
+        const ok = validateField(el);
+        el.style.borderColor = ok ? '#2e7d32' : '#b33';
+        all = all && ok;
+      }
+    }
+    return all;
+  }
+
+  // Заповнення випадковими значеннями
+  form.addEventListener('click', async (e) => {
+    if (e.target.id !== 'fill') return;
+    for (const el of form.querySelectorAll('input')){
+      el.value = Math.random().toString(36).slice(2,8);
+    }
+    await processHeavyWork();
+  });
+
+  // Сабміт з валідацією
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    status.textContent = 'Валідація…';
+    const ok = await validateAll();
+    await processHeavyWork();
+    status.textContent = ok ? '✔ Дані валідні, надіслано.' : '✖ Помилки валідації.';
+  });
+</script>
+</body>
+</html>
