@@ -11,19 +11,18 @@
       <div class="container"><div id="panel"></div></div>
     </header>
     <main class="container">
-      <div class="hero card">Контентна сторінка · hero</div>
+      <div class="hero card">Content page · hero</div>
       <div class="card">
-        <h2>Акордеон</h2>
+        <h2>Accordion</h2>
         <div id="accordion" class="accordion"></div>
         <div style="margin-top: 0.75rem">
-          <button class="btn primary" id="expand">Відкрити всі</button>
-          <button class="btn" id="collapse">Закрити всі</button>
+          <button class="btn primary" id="expand">Open all</button>
+          <button class="btn" id="collapse">Close all</button>
           <button class="btn" id="scroll">Scroll to hero</button>
         </div>
       </div>
       <div class="card footer">
-        Підказка: відкрий DevTools → Performance і дивись INP/LoAF; у консолі
-        доступний <span class="kbd">window.__perf</span>.
+        Tip: open DevTools → Performance and watch INP/LoAF; <span class="kbd">window.__perf</span> is available in the console.
       </div>
       <div id="app-root"></div>
     </main>
@@ -51,7 +50,7 @@
             for (let i = 0; i < cnt; i++) {
               const note = document.createElement("div");
               note.className = "card";
-              note.textContent = "Штучний елемент " + (i + 1);
+              note.textContent = "Synthetic element " + (i + 1);
               frag.appendChild(note);
             }
           });
@@ -59,7 +58,7 @@
           for (let i = 0; i < cnt; i++) {
             const note = document.createElement("div");
             note.className = "card";
-            note.textContent = "Штучний елемент " + (i + 1);
+            note.textContent = "Synthetic element " + (i + 1);
             root.appendChild(note);
           }
         }
@@ -69,7 +68,7 @@
         { length: 18 },
         (_, i) =>
           `<details>
-     <summary>Розділ ${i + 1}</summary>
+     <summary>Section ${i + 1}</summary>
      <p class="small">Lorem ipsum dolor sit amet…</p>
    </details>`
       ).join("");

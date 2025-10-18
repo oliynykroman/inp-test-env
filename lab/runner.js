@@ -92,3 +92,79 @@ for (const scenario of scenarios) {
 await browser.close();
 fs.writeFileSync('lab-results.json', JSON.stringify(results, null, 2));
 console.log('\nSaved to lab-results.json');
+
+// Also save a detailed, grouped view per scenario and variant
+const meta = {
+  base: BASE,
+  reps: REPS,
+  network: { latencyMs: 150, downloadMbps: 1.5, uploadMbps: 0.75 },
+  cpuThrottlingRate: 4,
+  timestamp: new Date().toISOString()
+};
+
+// Prepare grouping structure
+const byVariant = {};
+for (const s of scenarios) byVariant[s] = {};
+for (const v of variants) {
+  for (const s of scenarios) {
+    if (s !== 'dashboard' && v.i5) continue; // keep invariant from main loop
+    if (!byVariant[s][v.name]) byVariant[s][v.name] = [];
+  }
+}
+
+// Fill with all repetitions for each scenario × variant
+for (const r of results) {
+  const { scenario, variant, rep, INP, LoAFsum, LoAFcount } = r;
+  (byVariant[scenario][variant] || (byVariant[scenario][variant] = []))
+    .push({ rep, INP, LoAFsum, LoAFcount });
+}
+
+const detailed = { meta, data: byVariant };
+fs.writeFileSync('lab-results.by-variant.json', JSON.stringify(detailed, null, 2));
+console.log('Saved to lab-results.by-variant.json');
+
+// --- Write per-scenario×variant files ---
+const pairsDir = 'lab-results/pairs';
+fs.mkdirSync(pairsDir, { recursive: true });
+
+for (const [sc, vmap] of Object.entries(byVariant)) {
+  for (const [vn, runs] of Object.entries(vmap)) {
+    if (!runs || runs.length === 0) continue;
+    const payload = { meta, scenario: sc, variant: vn, runs };
+    const filePath = `${pairsDir}/${sc}__${vn}.json`;
+    fs.writeFileSync(filePath, JSON.stringify(payload, null, 2));
+    console.log(`Saved to ${filePath}`);
+  }
+}
+
+// --- Aggregates per scenario×variant (INP mean/median/q98) ---
+function quantileSorted(arr, q) {
+  if (!arr.length) return null;
+  const pos = (arr.length - 1) * q;
+  const base = Math.floor(pos);
+  const rest = pos - base;
+  return arr[base + 1] !== undefined ? arr[base] + rest * (arr[base + 1] - arr[base]) : arr[base];
+}
+
+function statsINP(values) {
+  const n = values.length;
+  const xs = values.filter((v) => Number.isFinite(v)).sort((a, b) => a - b);
+  const m = xs.length;
+  const mean = m ? xs.reduce((a, b) => a + b, 0) / m : null;
+  const median = m ? quantileSorted(xs, 0.5) : null;
+  const q98 = m ? quantileSorted(xs, 0.98) : null;
+  return { n_total: n, n_numeric: m, meanINP: mean, medianINP: median, q98INP: q98 };
+}
+
+const aggData = {};
+for (const [sc, vmap] of Object.entries(byVariant)) {
+  aggData[sc] = {};
+  for (const [vn, runs] of Object.entries(vmap)) {
+    const inpValues = (runs || []).map((r) => r.INP);
+    aggData[sc][vn] = statsINP(inpValues);
+  }
+}
+
+const aggregates = { meta, data: aggData };
+fs.writeFileSync('lab-results.aggregates.json', JSON.stringify(aggregates, null, 2));
+console.log('Saved to lab-results.aggregates.json');

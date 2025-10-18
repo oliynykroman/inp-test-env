@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="uk">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -15,7 +15,7 @@
 <header><div class="container"><div id="panel"></div></div></header>
 <main class="container">
   <div class="card">
-    <h2>Форма</h2>
+    <h2>Form</h2>
     <form id="f"></form>
     <div id="status" class="small"></div>
   </div>
@@ -53,18 +53,18 @@
     }
   }
 
-  // 🔧 Генеруємо 24 поля + блок дій у JS (без шаблонів у HTML)
+  // Generate 24 fields + actions in JS (no HTML templates)
   form.innerHTML = [
     ...Array.from({length: 24}, (_, i) =>
-      `<label>Поле ${i+1}<input type="text" name="f${i+1}" placeholder="value ${i+1}"></label>`
+      `<label>Field ${i+1}<input type="text" name="f${i+1}" placeholder="value ${i+1}"></label>`
     ),
     `<div class="actions">
-       <button type="button" class="btn" id="fill">Заповнити випадково</button>
-       <button type="submit" class="btn primary">Надіслати</button>
+       <button type="button" class="btn" id="fill">Fill random</button>
+       <button type="submit" class="btn primary">Submit</button>
      </div>`
   ].join('');
 
-  // Навмисно «важка» валідація, щоб було що оптимізувати для INP
+  // Intentionally heavy validation to leave room to optimize INP
   function validateField(el){
     const v = el.value || ''; let ok = true;
     for (let i = 0; i < VALIDATION_WEIGHT; i++) {
@@ -98,7 +98,7 @@
     return all;
   }
 
-  // Заповнення випадковими значеннями
+  // Fill with random values
   form.addEventListener('click', async (e) => {
     if (e.target.id !== 'fill') return;
     for (const el of form.querySelectorAll('input')){
@@ -114,10 +114,10 @@
     await processHeavyWork();
   });
 
-  // Сабміт з валідацією
+  // Submit with validation
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
-    status.textContent = 'Валідація…';
+    status.textContent = 'Validating…';
     const ok = await validateAll();
 
     // Heavier synchronous work to align with the submit interaction
@@ -131,7 +131,7 @@
     // Additional CPU work (monolithic in baseline; sliced when I2/I3 enabled)
     await processHeavyWork();
 
-    status.textContent = ok ? '✔ Дані валідні, надіслано.' : '✖ Помилки валідації.';
+    status.textContent = ok ? '✔ Data valid, submitted.' : '✖ Validation errors.';
   });
 </script>
 </body>

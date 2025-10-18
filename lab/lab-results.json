@@ -4,15 +4,15 @@
     "variant": "B0",
     "rep": 1,
     "INP": 40,
-    "LoAFsum": 296.69999998807907,
+    "LoAFsum": 308.5,
     "LoAFcount": 1
   },
   {
     "scenario": "content",
     "variant": "B0",
     "rep": 2,
-    "INP": 32,
-    "LoAFsum": 231.59999999403954,
+    "INP": 24,
+    "LoAFsum": 260.39999997615814,
     "LoAFcount": 1
   },
   {
@@ -20,23 +20,23 @@
     "variant": "B0",
     "rep": 3,
     "INP": 32,
-    "LoAFsum": 238.30000001192093,
+    "LoAFsum": 254.19999998807907,
     "LoAFcount": 1
   },
   {
     "scenario": "content",
     "variant": "B0",
     "rep": 4,
-    "INP": 32,
-    "LoAFsum": 234.69999998807907,
+    "INP": 24,
+    "LoAFsum": 253.29999995231628,
     "LoAFcount": 1
   },
   {
     "scenario": "content",
     "variant": "B0",
     "rep": 5,
-    "INP": 32,
-    "LoAFsum": 236.10000002384186,
+    "INP": 24,
+    "LoAFsum": 253,
     "LoAFcount": 1
   },
   {
@@ -44,15 +44,15 @@
     "variant": "B0",
     "rep": 6,
     "INP": 32,
-    "LoAFsum": 235.30000001192093,
+    "LoAFsum": 253.69999998807907,
     "LoAFcount": 1
   },
   {
     "scenario": "content",
     "variant": "B0",
     "rep": 7,
-    "INP": 32,
-    "LoAFsum": 232.80000001192093,
+    "INP": 24,
+    "LoAFsum": 242.5,
     "LoAFcount": 1
   },
   {
@@ -60,15 +60,15 @@
     "variant": "B0",
     "rep": 8,
     "INP": 32,
-    "LoAFsum": 240.40000000596046,
+    "LoAFsum": 255.5,
     "LoAFcount": 1
   },
   {
     "scenario": "content",
     "variant": "B0",
     "rep": 9,
-    "INP": 24,
-    "LoAFsum": 235.7000000178814,
+    "INP": 32,
+    "LoAFsum": 257.19999998807907,
     "LoAFcount": 1
   },
   {
@@ -76,7 +76,7 @@
     "variant": "B0",
     "rep": 10,
     "INP": 32,
-    "LoAFsum": 235.69999998807907,
+    "LoAFsum": 253.30000001192093,
     "LoAFcount": 1
   },
   {
@@ -84,7 +84,7 @@
     "variant": "B0",
     "rep": 11,
     "INP": 32,
-    "LoAFsum": 238.90000000596046,
+    "LoAFsum": 260.2000000476837,
     "LoAFcount": 1
   },
   {
@@ -92,7 +92,7 @@
     "variant": "B0",
     "rep": 12,
     "INP": 32,
-    "LoAFsum": 244.89999997615814,
+    "LoAFsum": 254,
     "LoAFcount": 1
   },
   {
@@ -100,7 +100,7 @@
     "variant": "B0",
     "rep": 13,
     "INP": 32,
-    "LoAFsum": 234.19999998807907,
+    "LoAFsum": 252.60000002384186,
     "LoAFcount": 1
   },
   {
@@ -108,15 +108,15 @@
     "variant": "B0",
     "rep": 14,
     "INP": 32,
-    "LoAFsum": 239.40000000596046,
+    "LoAFsum": 243.9000000357628,
     "LoAFcount": 1
   },
   {
     "scenario": "content",
     "variant": "B0",
     "rep": 15,
-    "INP": 24,
-    "LoAFsum": 234.09999999403954,
+    "INP": 32,
+    "LoAFsum": 258.5999999642372,
     "LoAFcount": 1
   },
   {
@@ -124,7 +124,7 @@
     "variant": "I2+I3",
     "rep": 1,
     "INP": 24,
-    "LoAFsum": 214.59999999403954,
+    "LoAFsum": 223.69999998807907,
     "LoAFcount": 1
   },
   {
@@ -132,7 +132,7 @@
     "variant": "I2+I3",
     "rep": 2,
     "INP": 24,
-    "LoAFsum": 238.90000000596046,
+    "LoAFsum": 254,
     "LoAFcount": 1
   },
   {
@@ -140,7 +140,7 @@
     "variant": "I2+I3",
     "rep": 3,
     "INP": 24,
-    "LoAFsum": 233.7000000178814,
+    "LoAFsum": 261.2999999523163,
     "LoAFcount": 1
   },
   {
@@ -148,7 +148,7 @@
     "variant": "I2+I3",
     "rep": 4,
     "INP": 24,
-    "LoAFsum": 235.09999999403954,
+    "LoAFsum": 262.30000001192093,
     "LoAFcount": 1
   },
   {
@@ -156,7 +156,7 @@
     "variant": "I2+I3",
     "rep": 5,
     "INP": 24,
-    "LoAFsum": 238.19999998807907,
+    "LoAFsum": 252.5,
     "LoAFcount": 1
   },
   {
@@ -164,7 +164,7 @@
     "variant": "I2+I3",
     "rep": 6,
     "INP": 24,
-    "LoAFsum": 232.59999999403954,
+    "LoAFsum": 259.0999999642372,
     "LoAFcount": 1
   },
   {
@@ -172,7 +172,7 @@
     "variant": "I2+I3",
     "rep": 7,
     "INP": 24,
-    "LoAFsum": 244.59999999403954,
+    "LoAFsum": 261.5,
     "LoAFcount": 1
   },
   {
@@ -180,7 +180,7 @@
     "variant": "I2+I3",
     "rep": 8,
     "INP": 24,
-    "LoAFsum": 233.5,
+    "LoAFsum": 252.19999998807907,
     "LoAFcount": 1
   },
   {
@@ -188,7 +188,7 @@
     "variant": "I2+I3",
     "rep": 9,
     "INP": 24,
-    "LoAFsum": 234.59999999403954,
+    "LoAFsum": 253.0999999642372,
     "LoAFcount": 1
   },
   {
@@ -196,7 +196,7 @@
     "variant": "I2+I3",
     "rep": 10,
     "INP": 24,
-    "LoAFsum": 236.5,
+    "LoAFsum": 254,
     "LoAFcount": 1
   },
   {
@@ -204,7 +204,7 @@
     "variant": "I2+I3",
     "rep": 11,
     "INP": 24,
-    "LoAFsum": 239.5,
+    "LoAFsum": 254.19999998807907,
     "LoAFcount": 1
   },
   {
@@ -212,7 +212,7 @@
     "variant": "I2+I3",
     "rep": 12,
     "INP": 24,
-    "LoAFsum": 238.09999999403954,
+    "LoAFsum": 261.2999999523163,
     "LoAFcount": 1
   },
   {
@@ -220,7 +220,7 @@
     "variant": "I2+I3",
     "rep": 13,
     "INP": 24,
-    "LoAFsum": 234.90000000596046,
+    "LoAFsum": 254,
     "LoAFcount": 1
   },
   {
@@ -228,7 +228,7 @@
     "variant": "I2+I3",
     "rep": 14,
     "INP": 24,
-    "LoAFsum": 229.69999998807907,
+    "LoAFsum": 253.39999997615814,
     "LoAFcount": 1
   },
   {
@@ -236,15 +236,15 @@
     "variant": "I2+I3",
     "rep": 15,
     "INP": 24,
-    "LoAFsum": 245.5,
+    "LoAFsum": 252.89999997615814,
     "LoAFcount": 1
   },
   {
     "scenario": "content",
     "variant": "I2+I3+I4",
     "rep": 1,
-    "INP": 24,
-    "LoAFsum": 214.19999998807907,
+    "INP": 32,
+    "LoAFsum": 225.0999999642372,
     "LoAFcount": 1
   },
   {
@@ -252,7 +252,7 @@
     "variant": "I2+I3+I4",
     "rep": 2,
     "INP": 24,
-    "LoAFsum": 234.2000000178814,
+    "LoAFsum": 253.80000001192093,
     "LoAFcount": 1
   },
   {
@@ -260,7 +260,7 @@
     "variant": "I2+I3+I4",
     "rep": 3,
     "INP": 24,
-    "LoAFsum": 238.30000001192093,
+    "LoAFsum": 253.10000002384186,
     "LoAFcount": 1
   },
   {
@@ -268,7 +268,7 @@
     "variant": "I2+I3+I4",
     "rep": 4,
     "INP": 24,
-    "LoAFsum": 234.59999999403954,
+    "LoAFsum": 251.69999998807907,
     "LoAFcount": 1
   },
   {
@@ -276,7 +276,7 @@
     "variant": "I2+I3+I4",
     "rep": 5,
     "INP": 24,
-    "LoAFsum": 253.40000000596046,
+    "LoAFsum": 259.5999999642372,
     "LoAFcount": 1
   },
   {
@@ -284,7 +284,7 @@
     "variant": "I2+I3+I4",
     "rep": 6,
     "INP": 24,
-    "LoAFsum": 245.60000002384186,
+    "LoAFsum": 253,
     "LoAFcount": 1
   },
   {
@@ -292,7 +292,7 @@
     "variant": "I2+I3+I4",
     "rep": 7,
     "INP": 24,
-    "LoAFsum": 238.7999999821186,
+    "LoAFsum": 262.39999997615814,
     "LoAFcount": 1
   },
   {
@@ -300,7 +300,7 @@
     "variant": "I2+I3+I4",
     "rep": 8,
     "INP": 24,
-    "LoAFsum": 231.19999998807907,
+    "LoAFsum": 261.19999998807907,
     "LoAFcount": 1
   },
   {
@@ -308,15 +308,15 @@
     "variant": "I2+I3+I4",
     "rep": 9,
     "INP": 24,
-    "LoAFsum": 245,
+    "LoAFsum": 253.39999997615814,
     "LoAFcount": 1
   },
   {
     "scenario": "content",
     "variant": "I2+I3+I4",
     "rep": 10,
-    "INP": 24,
-    "LoAFsum": 238.60000002384186,
+    "INP": 32,
+    "LoAFsum": 260.80000001192093,
     "LoAFcount": 1
   },
   {
@@ -324,7 +324,7 @@
     "variant": "I2+I3+I4",
     "rep": 11,
     "INP": 24,
-    "LoAFsum": 236.7000000178814,
+    "LoAFsum": 252.30000001192093,
     "LoAFcount": 1
   },
   {
@@ -332,7 +332,7 @@
     "variant": "I2+I3+I4",
     "rep": 12,
     "INP": 24,
-    "LoAFsum": 244,
+    "LoAFsum": 254.89999997615814,
     "LoAFcount": 1
   },
   {
@@ -340,7 +340,7 @@
     "variant": "I2+I3+I4",
     "rep": 13,
     "INP": 24,
-    "LoAFsum": 247.2000000178814,
+    "LoAFsum": 253.9000000357628,
     "LoAFcount": 1
   },
   {
@@ -348,7 +348,7 @@
     "variant": "I2+I3+I4",
     "rep": 14,
     "INP": 24,
-    "LoAFsum": 241.59999999403954,
+    "LoAFsum": 253.4000000357628,
     "LoAFcount": 1
   },
   {
@@ -356,7 +356,7 @@
     "variant": "I2+I3+I4",
     "rep": 15,
     "INP": 24,
-    "LoAFsum": 245.5,
+    "LoAFsum": 253.60000002384186,
     "LoAFcount": 1
   },
   {
@@ -364,7 +364,7 @@
     "variant": "I1",
     "rep": 1,
     "INP": 32,
-    "LoAFsum": 209.7000000178814,
+    "LoAFsum": 223.89999997615814,
     "LoAFcount": 1
   },
   {
@@ -372,7 +372,7 @@
     "variant": "I1",
     "rep": 2,
     "INP": 32,
-    "LoAFsum": 242.89999997615814,
+    "LoAFsum": 255.9000000357628,
     "LoAFcount": 1
   },
   {
@@ -380,7 +380,7 @@
     "variant": "I1",
     "rep": 3,
     "INP": 32,
-    "LoAFsum": 244.19999998807907,
+    "LoAFsum": 252.19999998807907,
     "LoAFcount": 1
   },
   {
@@ -388,7 +388,7 @@
     "variant": "I1",
     "rep": 4,
     "INP": 32,
-    "LoAFsum": 237.5,
+    "LoAFsum": 262.4000000357628,
     "LoAFcount": 1
   },
   {
@@ -396,7 +396,7 @@
     "variant": "I1",
     "rep": 5,
     "INP": 32,
-    "LoAFsum": 233.7000000178814,
+    "LoAFsum": 254.39999997615814,
     "LoAFcount": 1
   },
   {
@@ -404,7 +404,7 @@
     "variant": "I1",
     "rep": 6,
     "INP": 32,
-    "LoAFsum": 248.5,
+    "LoAFsum": 253.5,
     "LoAFcount": 1
   },
   {
@@ -412,31 +412,31 @@
     "variant": "I1",
     "rep": 7,
     "INP": 32,
-    "LoAFsum": 244.5,
+    "LoAFsum": 253,
     "LoAFcount": 1
   },
   {
     "scenario": "content",
     "variant": "I1",
     "rep": 8,
-    "INP": 32,
-    "LoAFsum": 236.59999999403954,
+    "INP": 24,
+    "LoAFsum": 254.80000001192093,
     "LoAFcount": 1
   },
   {
     "scenario": "content",
     "variant": "I1",
     "rep": 9,
-    "INP": 24,
-    "LoAFsum": 233.80000001192093,
+    "INP": 32,
+    "LoAFsum": 259.80000001192093,
     "LoAFcount": 1
   },
   {
     "scenario": "content",
     "variant": "I1",
     "rep": 10,
-    "INP": 32,
-    "LoAFsum": 248.59999999403954,
+    "INP": 24,
+    "LoAFsum": 254.4000000357628,
     "LoAFcount": 1
   },
   {
@@ -444,7 +444,7 @@
     "variant": "I1",
     "rep": 11,
     "INP": 32,
-    "LoAFsum": 245.7000000178814,
+    "LoAFsum": 253.5999999642372,
     "LoAFcount": 1
   },
   {
@@ -452,7 +452,7 @@
     "variant": "I1",
     "rep": 12,
     "INP": 32,
-    "LoAFsum": 239,
+    "LoAFsum": 253,
     "LoAFcount": 1
   },
   {
@@ -460,7 +460,7 @@
     "variant": "I1",
     "rep": 13,
     "INP": 32,
-    "LoAFsum": 242.7999999821186,
+    "LoAFsum": 253.39999997615814,
     "LoAFcount": 1
   },
   {
@@ -468,7 +468,7 @@
     "variant": "I1",
     "rep": 14,
     "INP": 32,
-    "LoAFsum": 248.90000000596046,
+    "LoAFsum": 254.30000001192093,
     "LoAFcount": 1
   },
   {
@@ -476,7 +476,7 @@
     "variant": "I1",
     "rep": 15,
     "INP": 32,
-    "LoAFsum": 235.59999999403954,
+    "LoAFsum": 252.0999999642372,
     "LoAFcount": 1
   },
   {
@@ -484,7 +484,7 @@
     "variant": "B0",
     "rep": 1,
     "INP": 72,
-    "LoAFsum": 268.90000000596046,
+    "LoAFsum": 281.39999997615814,
     "LoAFcount": 2
   },
   {
@@ -492,31 +492,31 @@
     "variant": "B0",
     "rep": 2,
     "INP": 48,
-    "LoAFsum": 241.60000002384186,
+    "LoAFsum": 279.5999999642372,
     "LoAFcount": 1
   },
   {
     "scenario": "dashboard",
     "variant": "B0",
     "rep": 3,
-    "INP": 40,
-    "LoAFsum": 245.40000000596046,
+    "INP": 48,
+    "LoAFsum": 240.5999999642372,
     "LoAFcount": 1
   },
   {
     "scenario": "dashboard",
     "variant": "B0",
     "rep": 4,
-    "INP": 40,
-    "LoAFsum": 242.59999999403954,
+    "INP": 48,
+    "LoAFsum": 278.69999998807907,
     "LoAFcount": 1
   },
   {
     "scenario": "dashboard",
     "variant": "B0",
     "rep": 5,
-    "INP": 40,
-    "LoAFsum": 241.09999999403954,
+    "INP": 48,
+    "LoAFsum": 243,
     "LoAFcount": 1
   },
   {
@@ -524,7 +524,7 @@
     "variant": "B0",
     "rep": 6,
     "INP": 48,
-    "LoAFsum": 236.5,
+    "LoAFsum": 271.39999997615814,
     "LoAFcount": 1
   },
   {
@@ -532,15 +532,15 @@
     "variant": "B0",
     "rep": 7,
     "INP": 48,
-    "LoAFsum": 246.19999998807907,
+    "LoAFsum": 277.0999999642372,
     "LoAFcount": 1
   },
   {
     "scenario": "dashboard",
     "variant": "B0",
     "rep": 8,
-    "INP": 48,
-    "LoAFsum": 233.30000001192093,
+    "INP": 40,
+    "LoAFsum": 278.60000002384186,
     "LoAFcount": 1
   },
   {
@@ -548,7 +548,7 @@
     "variant": "B0",
     "rep": 9,
     "INP": 48,
-    "LoAFsum": 236.5,
+    "LoAFsum": 279.19999998807907,
     "LoAFcount": 1
   },
   {
@@ -556,7 +556,7 @@
     "variant": "B0",
     "rep": 10,
     "INP": 48,
-    "LoAFsum": 240.09999999403954,
+    "LoAFsum": 269.39999997615814,
     "LoAFcount": 1
   },
   {
@@ -564,39 +564,39 @@
     "variant": "B0",
     "rep": 11,
     "INP": 48,
-    "LoAFsum": 235.89999997615814,
+    "LoAFsum": 279.30000001192093,
     "LoAFcount": 1
   },
   {
     "scenario": "dashboard",
     "variant": "B0",
     "rep": 12,
-    "INP": 48,
-    "LoAFsum": 225,
+    "INP": 40,
+    "LoAFsum": 279.39999997615814,
     "LoAFcount": 1
   },
   {
     "scenario": "dashboard",
     "variant": "B0",
     "rep": 13,
-    "INP": 40,
-    "LoAFsum": 233.7999999821186,
+    "INP": 48,
+    "LoAFsum": 269.69999998807907,
     "LoAFcount": 1
   },
   {
     "scenario": "dashboard",
     "variant": "B0",
     "rep": 14,
-    "INP": 40,
-    "LoAFsum": 242.5,
+    "INP": 48,
+    "LoAFsum": 240.5,
     "LoAFcount": 1
   },
   {
     "scenario": "dashboard",
     "variant": "B0",
     "rep": 15,
-    "INP": 40,
-    "LoAFsum": 246.59999999403954,
+    "INP": 48,
+    "LoAFsum": 271,
     "LoAFcount": 1
   },
   {
@@ -604,7 +604,7 @@
     "variant": "I2+I3",
     "rep": 1,
     "INP": 8,
-    "LoAFsum": 217.19999998807907,
+    "LoAFsum": 264.2000000476837,
     "LoAFcount": 1
   },
   {
@@ -612,7 +612,7 @@
     "variant": "I2+I3",
     "rep": 2,
     "INP": 24,
-    "LoAFsum": 245.5,
+    "LoAFsum": 271.0999999642372,
     "LoAFcount": 1
   },
   {
@@ -620,7 +620,7 @@
     "variant": "I2+I3",
     "rep": 3,
     "INP": 24,
-    "LoAFsum": 242.19999998807907,
+    "LoAFsum": 269.10000002384186,
     "LoAFcount": 1
   },
   {
@@ -628,7 +628,7 @@
     "variant": "I2+I3",
     "rep": 4,
     "INP": 24,
-    "LoAFsum": 237.80000001192093,
+    "LoAFsum": 277.60000002384186,
     "LoAFcount": 1
   },
   {
@@ -636,7 +636,7 @@
     "variant": "I2+I3",
     "rep": 5,
     "INP": 24,
-    "LoAFsum": 236.09999999403954,
+    "LoAFsum": 271.19999998807907,
     "LoAFcount": 1
   },
   {
@@ -644,7 +644,7 @@
     "variant": "I2+I3",
     "rep": 6,
     "INP": 24,
-    "LoAFsum": 221.69999998807907,
+    "LoAFsum": 253,
     "LoAFcount": 1
   },
   {
@@ -652,7 +652,7 @@
     "variant": "I2+I3",
     "rep": 7,
     "INP": 24,
-    "LoAFsum": 246.59999999403954,
+    "LoAFsum": 272.30000001192093,
     "LoAFcount": 1
   },
   {
@@ -660,31 +660,31 @@
     "variant": "I2+I3",
     "rep": 8,
     "INP": 24,
-    "LoAFsum": 235.80000001192093,
+    "LoAFsum": 269.89999997615814,
     "LoAFcount": 1
   },
   {
     "scenario": "dashboard",
     "variant": "I2+I3",
     "rep": 9,
-    "INP": 32,
-    "LoAFsum": 233.5,
+    "INP": 24,
+    "LoAFsum": 240.10000002384186,
     "LoAFcount": 1
   },
   {
     "scenario": "dashboard",
     "variant": "I2+I3",
     "rep": 10,
-    "INP": 32,
-    "LoAFsum": 234,
+    "INP": 24,
+    "LoAFsum": 244.30000001192093,
     "LoAFcount": 1
   },
   {
     "scenario": "dashboard",
     "variant": "I2+I3",
     "rep": 11,
-    "INP": 32,
-    "LoAFsum": 226.59999999403954,
+    "INP": 16,
+    "LoAFsum": 268.9000000357628,
     "LoAFcount": 1
   },
   {
@@ -692,7 +692,7 @@
     "variant": "I2+I3",
     "rep": 12,
     "INP": 24,
-    "LoAFsum": 239.69999998807907,
+    "LoAFsum": 278.5,
     "LoAFcount": 1
   },
   {
@@ -700,15 +700,15 @@
     "variant": "I2+I3",
     "rep": 13,
     "INP": 24,
-    "LoAFsum": 235.89999997615814,
+    "LoAFsum": 269.39999997615814,
     "LoAFcount": 1
   },
   {
     "scenario": "dashboard",
     "variant": "I2+I3",
     "rep": 14,
-    "INP": 24,
-    "LoAFsum": 233.10000002384186,
+    "INP": 16,
+    "LoAFsum": 269.69999998807907,
     "LoAFcount": 1
   },
   {
@@ -716,7 +716,7 @@
     "variant": "I2+I3",
     "rep": 15,
     "INP": 24,
-    "LoAFsum": 242.90000000596046,
+    "LoAFsum": 267.89999997615814,
     "LoAFcount": 1
   },
   {
@@ -724,7 +724,7 @@
     "variant": "I2+I3+I4",
     "rep": 1,
     "INP": 8,
-    "LoAFsum": 209.09999999403954,
+    "LoAFsum": 221.89999997615814,
     "LoAFcount": 1
   },
   {
@@ -732,7 +732,7 @@
     "variant": "I2+I3+I4",
     "rep": 2,
     "INP": 24,
-    "LoAFsum": 246.09999999403954,
+    "LoAFsum": 270.30000001192093,
     "LoAFcount": 1
   },
   {
@@ -740,7 +740,7 @@
     "variant": "I2+I3+I4",
     "rep": 3,
     "INP": 24,
-    "LoAFsum": 235.09999999403954,
+    "LoAFsum": 271.19999998807907,
     "LoAFcount": 1
   },
   {
@@ -748,7 +748,7 @@
     "variant": "I2+I3+I4",
     "rep": 4,
     "INP": 24,
-    "LoAFsum": 238.69999998807907,
+    "LoAFsum": 242.39999997615814,
     "LoAFcount": 1
   },
   {
@@ -756,15 +756,15 @@
     "variant": "I2+I3+I4",
     "rep": 5,
     "INP": 24,
-    "LoAFsum": 236.90000000596046,
+    "LoAFsum": 278.89999997615814,
     "LoAFcount": 1
   },
   {
     "scenario": "dashboard",
     "variant": "I2+I3+I4",
     "rep": 6,
-    "INP": 32,
-    "LoAFsum": 242.7000000178814,
+    "INP": 24,
+    "LoAFsum": 269.5,
     "LoAFcount": 1
   },
   {
@@ -772,15 +772,15 @@
     "variant": "I2+I3+I4",
     "rep": 7,
     "INP": 24,
-    "LoAFsum": 239,
+    "LoAFsum": 270.10000002384186,
     "LoAFcount": 1
   },
   {
     "scenario": "dashboard",
     "variant": "I2+I3+I4",
     "rep": 8,
-    "INP": 24,
-    "LoAFsum": 245.19999998807907,
+    "INP": 16,
+    "LoAFsum": 269.89999997615814,
     "LoAFcount": 1
   },
   {
@@ -788,7 +788,7 @@
     "variant": "I2+I3+I4",
     "rep": 9,
     "INP": 24,
-    "LoAFsum": 245,
+    "LoAFsum": 272.69999998807907,
     "LoAFcount": 1
   },
   {
@@ -796,15 +796,15 @@
     "variant": "I2+I3+I4",
     "rep": 10,
     "INP": 24,
-    "LoAFsum": 228,
+    "LoAFsum": 276.5,
     "LoAFcount": 1
   },
   {
     "scenario": "dashboard",
     "variant": "I2+I3+I4",
     "rep": 11,
-    "INP": 24,
-    "LoAFsum": 233.59999999403954,
+    "INP": 16,
+    "LoAFsum": 270.30000001192093,
     "LoAFcount": 1
   },
   {
@@ -812,7 +812,7 @@
     "variant": "I2+I3+I4",
     "rep": 12,
     "INP": 24,
-    "LoAFsum": 235.59999999403954,
+    "LoAFsum": 255.89999997615814,
     "LoAFcount": 1
   },
   {
@@ -820,7 +820,7 @@
     "variant": "I2+I3+I4",
     "rep": 13,
     "INP": 24,
-    "LoAFsum": 247.2999999821186,
+    "LoAFsum": 270.30000001192093,
     "LoAFcount": 1
   },
   {
@@ -828,7 +828,7 @@
     "variant": "I2+I3+I4",
     "rep": 14,
     "INP": 24,
-    "LoAFsum": 225.59999999403954,
+    "LoAFsum": 272.5999999642372,
     "LoAFcount": 1
   },
   {
@@ -836,207 +836,207 @@
     "variant": "I2+I3+I4",
     "rep": 15,
     "INP": 24,
-    "LoAFsum": 233.09999999403954,
-    "LoAFcount": 1
-  },
-  {
-    "scenario": "dashboard",
-    "variant": "I1",
-    "rep": 1,
-    "INP": 40,
-    "LoAFsum": 210.5,
-    "LoAFcount": 1
-  },
-  {
-    "scenario": "dashboard",
-    "variant": "I1",
-    "rep": 2,
-    "INP": 48,
-    "LoAFsum": 226.09999999403954,
-    "LoAFcount": 1
-  },
-  {
-    "scenario": "dashboard",
-    "variant": "I1",
-    "rep": 3,
-    "INP": 48,
-    "LoAFsum": 241.80000001192093,
-    "LoAFcount": 1
-  },
-  {
-    "scenario": "dashboard",
-    "variant": "I1",
-    "rep": 4,
-    "INP": 40,
-    "LoAFsum": 238.2999999821186,
-    "LoAFcount": 1
-  },
-  {
-    "scenario": "dashboard",
-    "variant": "I1",
-    "rep": 5,
-    "INP": 40,
-    "LoAFsum": 234.40000000596046,
-    "LoAFcount": 1
-  },
-  {
-    "scenario": "dashboard",
-    "variant": "I1",
-    "rep": 6,
-    "INP": 40,
-    "LoAFsum": 229.59999999403954,
-    "LoAFcount": 1
-  },
-  {
-    "scenario": "dashboard",
-    "variant": "I1",
-    "rep": 7,
-    "INP": 40,
-    "LoAFsum": 234.5,
-    "LoAFcount": 1
-  },
-  {
-    "scenario": "dashboard",
-    "variant": "I1",
-    "rep": 8,
-    "INP": 48,
-    "LoAFsum": 230.69999998807907,
-    "LoAFcount": 1
-  },
-  {
-    "scenario": "dashboard",
-    "variant": "I1",
-    "rep": 9,
-    "INP": 40,
-    "LoAFsum": 235.80000001192093,
-    "LoAFcount": 1
-  },
-  {
-    "scenario": "dashboard",
-    "variant": "I1",
-    "rep": 10,
-    "INP": 40,
-    "LoAFsum": 239,
-    "LoAFcount": 1
-  },
-  {
-    "scenario": "dashboard",
-    "variant": "I1",
-    "rep": 11,
-    "INP": 48,
     "LoAFsum": 244.5,
     "LoAFcount": 1
   },
   {
     "scenario": "dashboard",
     "variant": "I1",
-    "rep": 12,
-    "INP": 40,
-    "LoAFsum": 238.2000000178814,
-    "LoAFcount": 1
-  },
-  {
-    "scenario": "dashboard",
-    "variant": "I1",
-    "rep": 13,
-    "INP": 40,
-    "LoAFsum": 245,
-    "LoAFcount": 1
-  },
-  {
-    "scenario": "dashboard",
-    "variant": "I1",
-    "rep": 14,
-    "INP": 40,
-    "LoAFsum": 233.09999999403954,
-    "LoAFcount": 1
-  },
-  {
-    "scenario": "dashboard",
-    "variant": "I1",
-    "rep": 15,
-    "INP": 40,
-    "LoAFsum": 239.69999998807907,
-    "LoAFcount": 1
-  },
-  {
-    "scenario": "dashboard",
-    "variant": "I5",
     "rep": 1,
-    "INP": 40,
-    "LoAFsum": 207.80000001192093,
+    "INP": 48,
+    "LoAFsum": 227.29999995231628,
     "LoAFcount": 1
   },
   {
     "scenario": "dashboard",
-    "variant": "I5",
+    "variant": "I1",
     "rep": 2,
-    "INP": 40,
-    "LoAFsum": 237.69999998807907,
+    "INP": 48,
+    "LoAFsum": 269.60000002384186,
     "LoAFcount": 1
   },
   {
     "scenario": "dashboard",
-    "variant": "I5",
+    "variant": "I1",
     "rep": 3,
-    "INP": 40,
-    "LoAFsum": 232.2000000178814,
+    "INP": 48,
+    "LoAFsum": 277.69999998807907,
     "LoAFcount": 1
   },
   {
     "scenario": "dashboard",
-    "variant": "I5",
+    "variant": "I1",
     "rep": 4,
     "INP": 40,
-    "LoAFsum": 230.19999998807907,
+    "LoAFsum": 270.89999997615814,
     "LoAFcount": 1
   },
   {
     "scenario": "dashboard",
-    "variant": "I5",
+    "variant": "I1",
     "rep": 5,
-    "INP": 40,
-    "LoAFsum": 232.10000002384186,
+    "INP": 48,
+    "LoAFsum": 270.30000001192093,
     "LoAFcount": 1
   },
   {
     "scenario": "dashboard",
-    "variant": "I5",
+    "variant": "I1",
     "rep": 6,
-    "INP": 40,
-    "LoAFsum": 235.10000002384186,
+    "INP": 48,
+    "LoAFsum": 276.19999998807907,
     "LoAFcount": 1
   },
   {
     "scenario": "dashboard",
-    "variant": "I5",
+    "variant": "I1",
     "rep": 7,
-    "INP": 40,
-    "LoAFsum": 240.90000000596046,
+    "INP": 48,
+    "LoAFsum": 271.80000001192093,
     "LoAFcount": 1
   },
   {
     "scenario": "dashboard",
-    "variant": "I5",
+    "variant": "I1",
     "rep": 8,
     "INP": 48,
-    "LoAFsum": 227.19999998807907,
+    "LoAFsum": 276.80000001192093,
     "LoAFcount": 1
   },
   {
     "scenario": "dashboard",
-    "variant": "I5",
+    "variant": "I1",
     "rep": 9,
-    "INP": 40,
-    "LoAFsum": 226.90000000596046,
+    "INP": 48,
+    "LoAFsum": 271,
     "LoAFcount": 1
   },
   {
     "scenario": "dashboard",
-    "variant": "I5",
+    "variant": "I1",
     "rep": 10,
     "INP": 48,
-    "LoAFsum": 238.09999999403954,
+    "LoAFsum": 269.0999999642372,
+    "LoAFcount": 1
+  },
+  {
+    "scenario": "dashboard",
+    "variant": "I1",
+    "rep": 11,
+    "INP": 48,
+    "LoAFsum": 277.30000001192093,
+    "LoAFcount": 1
+  },
+  {
+    "scenario": "dashboard",
+    "variant": "I1",
+    "rep": 12,
+    "INP": 48,
+    "LoAFsum": 270.69999998807907,
+    "LoAFcount": 1
+  },
+  {
+    "scenario": "dashboard",
+    "variant": "I1",
+    "rep": 13,
+    "INP": 40,
+    "LoAFsum": 269.80000001192093,
+    "LoAFcount": 1
+  },
+  {
+    "scenario": "dashboard",
+    "variant": "I1",
+    "rep": 14,
+    "INP": 48,
+    "LoAFsum": 277.30000001192093,
+    "LoAFcount": 1
+  },
+  {
+    "scenario": "dashboard",
+    "variant": "I1",
+    "rep": 15,
+    "INP": 48,
+    "LoAFsum": 269.5,
+    "LoAFcount": 1
+  },
+  {
+    "scenario": "dashboard",
+    "variant": "I5",
+    "rep": 1,
+    "INP": 40,
+    "LoAFsum": 227.80000001192093,
+    "LoAFcount": 1
+  },
+  {
+    "scenario": "dashboard",
+    "variant": "I5",
+    "rep": 2,
+    "INP": 40,
+    "LoAFsum": 269.30000001192093,
+    "LoAFcount": 1
+  },
+  {
+    "scenario": "dashboard",
+    "variant": "I5",
+    "rep": 3,
+    "INP": 40,
+    "LoAFsum": 257.5,
+    "LoAFcount": 1
+  },
+  {
+    "scenario": "dashboard",
+    "variant": "I5",
+    "rep": 4,
+    "INP": 40,
+    "LoAFsum": 268.5999999642372,
+    "LoAFcount": 1
+  },
+  {
+    "scenario": "dashboard",
+    "variant": "I5",
+    "rep": 5,
+    "INP": 40,
+    "LoAFsum": 234.30000001192093,
+    "LoAFcount": 1
+  },
+  {
+    "scenario": "dashboard",
+    "variant": "I5",
+    "rep": 6,
+    "INP": 40,
+    "LoAFsum": 280.5,
+    "LoAFcount": 1
+  },
+  {
+    "scenario": "dashboard",
+    "variant": "I5",
+    "rep": 7,
+    "INP": 48,
+    "LoAFsum": 281.19999998807907,
+    "LoAFcount": 1
+  },
+  {
+    "scenario": "dashboard",
+    "variant": "I5",
+    "rep": 8,
+    "INP": 40,
+    "LoAFsum": 276.5999999642372,
+    "LoAFcount": 1
+  },
+  {
+    "scenario": "dashboard",
+    "variant": "I5",
+    "rep": 9,
+    "INP": 40,
+    "LoAFsum": 279.30000001192093,
+    "LoAFcount": 1
+  },
+  {
+    "scenario": "dashboard",
+    "variant": "I5",
+    "rep": 10,
+    "INP": 40,
+    "LoAFsum": 271.4000000357628,
     "LoAFcount": 1
   },
   {
@@ -1044,7 +1044,7 @@
     "variant": "I5",
     "rep": 11,
     "INP": 40,
-    "LoAFsum": 241.30000001192093,
+    "LoAFsum": 273.89999997615814,
     "LoAFcount": 1
   },
   {
@@ -1052,7 +1052,7 @@
     "variant": "I5",
     "rep": 12,
     "INP": 48,
-    "LoAFsum": 228.5,
+    "LoAFsum": 272,
     "LoAFcount": 1
   },
   {
@@ -1060,7 +1060,7 @@
     "variant": "I5",
     "rep": 13,
     "INP": 40,
-    "LoAFsum": 242.59999999403954,
+    "LoAFsum": 271.10000002384186,
     "LoAFcount": 1
   },
   {
@@ -1068,7 +1068,7 @@
     "variant": "I5",
     "rep": 14,
     "INP": 40,
-    "LoAFsum": 240,
+    "LoAFsum": 271.9000000357628,
     "LoAFcount": 1
   },
   {
@@ -1076,479 +1076,479 @@
     "variant": "I5",
     "rep": 15,
     "INP": 40,
-    "LoAFsum": 244.7000000178814,
+    "LoAFsum": 278.69999998807907,
     "LoAFcount": 1
   },
   {
     "scenario": "form",
     "variant": "B0",
     "rep": 1,
-    "INP": 2232,
-    "LoAFsum": 4731.0999999940395,
+    "INP": 2120,
+    "LoAFsum": 4568.699999988079,
     "LoAFcount": 3
   },
   {
     "scenario": "form",
     "variant": "B0",
     "rep": 2,
-    "INP": 2224,
-    "LoAFsum": 4713.899999976158,
+    "INP": 2152,
+    "LoAFsum": 4587.600000023842,
     "LoAFcount": 3
   },
   {
     "scenario": "form",
     "variant": "B0",
     "rep": 3,
-    "INP": 2208,
-    "LoAFsum": 4724.399999976158,
+    "INP": 2152,
+    "LoAFsum": 4628.900000035763,
     "LoAFcount": 3
   },
   {
     "scenario": "form",
     "variant": "B0",
     "rep": 4,
-    "INP": 2192,
-    "LoAFsum": 4664.799999952316,
-    "LoAFcount": 3
-  },
-  {
-    "scenario": "form",
-    "variant": "B0",
-    "rep": 5,
-    "INP": 2184,
-    "LoAFsum": 4667.199999958277,
-    "LoAFcount": 3
-  },
-  {
-    "scenario": "form",
-    "variant": "B0",
-    "rep": 6,
-    "INP": 2208,
-    "LoAFsum": 4659.399999976158,
-    "LoAFcount": 3
-  },
-  {
-    "scenario": "form",
-    "variant": "B0",
-    "rep": 7,
-    "INP": 2232,
-    "LoAFsum": 4729.800000011921,
-    "LoAFcount": 3
-  },
-  {
-    "scenario": "form",
-    "variant": "B0",
-    "rep": 8,
-    "INP": 2192,
-    "LoAFsum": 4674.000000029802,
-    "LoAFcount": 3
-  },
-  {
-    "scenario": "form",
-    "variant": "B0",
-    "rep": 9,
-    "INP": 2224,
-    "LoAFsum": 4751.9000000059605,
-    "LoAFcount": 3
-  },
-  {
-    "scenario": "form",
-    "variant": "B0",
-    "rep": 10,
-    "INP": 2184,
-    "LoAFsum": 4698.799999982119,
-    "LoAFcount": 3
-  },
-  {
-    "scenario": "form",
-    "variant": "B0",
-    "rep": 11,
-    "INP": 2256,
-    "LoAFsum": 4806.800000011921,
-    "LoAFcount": 3
-  },
-  {
-    "scenario": "form",
-    "variant": "B0",
-    "rep": 12,
-    "INP": 2256,
-    "LoAFsum": 4784.4000000059605,
-    "LoAFcount": 3
-  },
-  {
-    "scenario": "form",
-    "variant": "B0",
-    "rep": 13,
-    "INP": 2264,
-    "LoAFsum": 4758.9000000059605,
-    "LoAFcount": 3
-  },
-  {
-    "scenario": "form",
-    "variant": "B0",
-    "rep": 14,
-    "INP": 2736,
-    "LoAFsum": 5732.699999988079,
-    "LoAFcount": 3
-  },
-  {
-    "scenario": "form",
-    "variant": "B0",
-    "rep": 15,
-    "INP": 2192,
-    "LoAFsum": 4734.600000053644,
-    "LoAFcount": 3
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3",
-    "rep": 1,
-    "INP": 24,
-    "LoAFsum": 2402.0520000059605,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3",
-    "rep": 2,
-    "INP": 24,
-    "LoAFsum": 2382.271,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3",
-    "rep": 3,
-    "INP": 24,
-    "LoAFsum": 2440.467999988079,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3",
-    "rep": 4,
-    "INP": 24,
-    "LoAFsum": 2433.556000011921,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3",
-    "rep": 5,
-    "INP": 24,
-    "LoAFsum": 2397.7729999821186,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3",
-    "rep": 6,
-    "INP": 24,
-    "LoAFsum": 2422.195,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3",
-    "rep": 7,
-    "INP": 24,
-    "LoAFsum": 2408.031,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3",
-    "rep": 8,
-    "INP": 24,
-    "LoAFsum": 2437.100000011921,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3",
-    "rep": 9,
-    "INP": 24,
-    "LoAFsum": 2437.7589999880793,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3",
-    "rep": 10,
-    "INP": 24,
-    "LoAFsum": 2374.3029999940395,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3",
-    "rep": 11,
-    "INP": 24,
-    "LoAFsum": 2445.225000011921,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3",
-    "rep": 12,
-    "INP": 24,
-    "LoAFsum": 2454.019,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3",
-    "rep": 13,
-    "INP": 24,
-    "LoAFsum": 2424.127000011921,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3",
-    "rep": 14,
-    "INP": 24,
-    "LoAFsum": 2458.6439999940394,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3",
-    "rep": 15,
-    "INP": 16,
-    "LoAFsum": 2381.8419999940397,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3+I4",
-    "rep": 1,
-    "INP": 24,
-    "LoAFsum": 2404.998,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3+I4",
-    "rep": 2,
-    "INP": 24,
-    "LoAFsum": 2464.7750000059605,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3+I4",
-    "rep": 3,
-    "INP": 24,
-    "LoAFsum": 2369.4719999940394,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3+I4",
-    "rep": 4,
-    "INP": 24,
-    "LoAFsum": 2377.2409999880792,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3+I4",
-    "rep": 5,
-    "INP": 24,
-    "LoAFsum": 2387.4820000059603,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3+I4",
-    "rep": 6,
-    "INP": 24,
-    "LoAFsum": 2404.6090000059603,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3+I4",
-    "rep": 7,
-    "INP": 24,
-    "LoAFsum": 2378.9470000178812,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3+I4",
-    "rep": 8,
-    "INP": 24,
-    "LoAFsum": 2389.9820000059603,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3+I4",
-    "rep": 9,
-    "INP": 24,
-    "LoAFsum": 2396.6589999940397,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3+I4",
-    "rep": 10,
-    "INP": 24,
-    "LoAFsum": 2398.6060000059606,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3+I4",
-    "rep": 11,
-    "INP": 24,
-    "LoAFsum": 2404.650000023842,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3+I4",
-    "rep": 12,
-    "INP": 24,
-    "LoAFsum": 2446.7320000119207,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3+I4",
-    "rep": 13,
-    "INP": 24,
-    "LoAFsum": 2407.0780000119207,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3+I4",
-    "rep": 14,
-    "INP": 24,
-    "LoAFsum": 2358.5929999940395,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I2+I3+I4",
-    "rep": 15,
-    "INP": 24,
-    "LoAFsum": 2356.1980000178814,
-    "LoAFcount": 2
-  },
-  {
-    "scenario": "form",
-    "variant": "I1",
-    "rep": 1,
-    "INP": 2168,
-    "LoAFsum": 4627.900000035763,
-    "LoAFcount": 3
-  },
-  {
-    "scenario": "form",
-    "variant": "I1",
-    "rep": 2,
-    "INP": 2184,
-    "LoAFsum": 4659.900000035763,
-    "LoAFcount": 3
-  },
-  {
-    "scenario": "form",
-    "variant": "I1",
-    "rep": 3,
     "INP": 2176,
-    "LoAFsum": 4639.199999988079,
+    "LoAFsum": 4624.999999940395,
+    "LoAFcount": 3
+  },
+  {
+    "scenario": "form",
+    "variant": "B0",
+    "rep": 5,
+    "INP": 2152,
+    "LoAFsum": 4610.600000023842,
+    "LoAFcount": 3
+  },
+  {
+    "scenario": "form",
+    "variant": "B0",
+    "rep": 6,
+    "INP": 2160,
+    "LoAFsum": 4617.600000023842,
+    "LoAFcount": 3
+  },
+  {
+    "scenario": "form",
+    "variant": "B0",
+    "rep": 7,
+    "INP": 2168,
+    "LoAFsum": 4632.400000035763,
+    "LoAFcount": 3
+  },
+  {
+    "scenario": "form",
+    "variant": "B0",
+    "rep": 8,
+    "INP": 2176,
+    "LoAFsum": 4631.199999928474,
+    "LoAFcount": 3
+  },
+  {
+    "scenario": "form",
+    "variant": "B0",
+    "rep": 9,
+    "INP": 2168,
+    "LoAFsum": 4632.799999952316,
+    "LoAFcount": 3
+  },
+  {
+    "scenario": "form",
+    "variant": "B0",
+    "rep": 10,
+    "INP": 2144,
+    "LoAFsum": 4569.299999952316,
+    "LoAFcount": 3
+  },
+  {
+    "scenario": "form",
+    "variant": "B0",
+    "rep": 11,
+    "INP": 2152,
+    "LoAFsum": 4641.400000035763,
+    "LoAFcount": 3
+  },
+  {
+    "scenario": "form",
+    "variant": "B0",
+    "rep": 12,
+    "INP": 2128,
+    "LoAFsum": 4594.099999964237,
+    "LoAFcount": 3
+  },
+  {
+    "scenario": "form",
+    "variant": "B0",
+    "rep": 13,
+    "INP": 2168,
+    "LoAFsum": 4609.099999964237,
+    "LoAFcount": 3
+  },
+  {
+    "scenario": "form",
+    "variant": "B0",
+    "rep": 14,
+    "INP": 2168,
+    "LoAFsum": 4654.199999988079,
+    "LoAFcount": 3
+  },
+  {
+    "scenario": "form",
+    "variant": "B0",
+    "rep": 15,
+    "INP": 2160,
+    "LoAFsum": 4582.100000023842,
+    "LoAFcount": 3
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3",
+    "rep": 1,
+    "INP": 24,
+    "LoAFsum": 2334.731999952316,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3",
+    "rep": 2,
+    "INP": 32,
+    "LoAFsum": 2387.622,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3",
+    "rep": 3,
+    "INP": 24,
+    "LoAFsum": 2351.211000011921,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3",
+    "rep": 4,
+    "INP": 24,
+    "LoAFsum": 2366.834999952316,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3",
+    "rep": 5,
+    "INP": 24,
+    "LoAFsum": 2354.595,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3",
+    "rep": 6,
+    "INP": 32,
+    "LoAFsum": 2359.015000011921,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3",
+    "rep": 7,
+    "INP": 32,
+    "LoAFsum": 2359.824000011921,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3",
+    "rep": 8,
+    "INP": 24,
+    "LoAFsum": 2445.1800000476837,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3",
+    "rep": 9,
+    "INP": 24,
+    "LoAFsum": 2387.0539999642374,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3",
+    "rep": 10,
+    "INP": 24,
+    "LoAFsum": 2361.318999976158,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3",
+    "rep": 11,
+    "INP": 24,
+    "LoAFsum": 2371.365,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3",
+    "rep": 12,
+    "INP": 24,
+    "LoAFsum": 2352.8660000119207,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3",
+    "rep": 13,
+    "INP": 24,
+    "LoAFsum": 2368.273,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3",
+    "rep": 14,
+    "INP": 24,
+    "LoAFsum": 2436.796000035763,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3",
+    "rep": 15,
+    "INP": 24,
+    "LoAFsum": 2392.419999976158,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3+I4",
+    "rep": 1,
+    "INP": 32,
+    "LoAFsum": 2360.7480000476835,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3+I4",
+    "rep": 2,
+    "INP": 24,
+    "LoAFsum": 2369.8439999642374,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3+I4",
+    "rep": 3,
+    "INP": 32,
+    "LoAFsum": 2355.567,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3+I4",
+    "rep": 4,
+    "INP": 24,
+    "LoAFsum": 2375.873,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3+I4",
+    "rep": 5,
+    "INP": 32,
+    "LoAFsum": 2374.772999976158,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3+I4",
+    "rep": 6,
+    "INP": 24,
+    "LoAFsum": 2371.379000011921,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3+I4",
+    "rep": 7,
+    "INP": 32,
+    "LoAFsum": 2369.8549999880793,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3+I4",
+    "rep": 8,
+    "INP": 32,
+    "LoAFsum": 2368.98,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3+I4",
+    "rep": 9,
+    "INP": 24,
+    "LoAFsum": 2384.255000011921,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3+I4",
+    "rep": 10,
+    "INP": 32,
+    "LoAFsum": 2349.8519999761584,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3+I4",
+    "rep": 11,
+    "INP": 24,
+    "LoAFsum": 2355.188000011921,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3+I4",
+    "rep": 12,
+    "INP": 24,
+    "LoAFsum": 2393.619999976158,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3+I4",
+    "rep": 13,
+    "INP": 32,
+    "LoAFsum": 2356.2849999523164,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3+I4",
+    "rep": 14,
+    "INP": 24,
+    "LoAFsum": 2366.099000011921,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I2+I3+I4",
+    "rep": 15,
+    "INP": 24,
+    "LoAFsum": 2385.819999988079,
+    "LoAFcount": 2
+  },
+  {
+    "scenario": "form",
+    "variant": "I1",
+    "rep": 1,
+    "INP": 2168,
+    "LoAFsum": 4592.299999892712,
+    "LoAFcount": 3
+  },
+  {
+    "scenario": "form",
+    "variant": "I1",
+    "rep": 2,
+    "INP": 2160,
+    "LoAFsum": 4602,
+    "LoAFcount": 3
+  },
+  {
+    "scenario": "form",
+    "variant": "I1",
+    "rep": 3,
+    "INP": 2136,
+    "LoAFsum": 4612.199999988079,
     "LoAFcount": 3
   },
   {
     "scenario": "form",
     "variant": "I1",
     "rep": 4,
-    "INP": 2168,
-    "LoAFsum": 4630.800000011921,
+    "INP": 2160,
+    "LoAFsum": 5138.1000000834465,
     "LoAFcount": 3
   },
   {
     "scenario": "form",
     "variant": "I1",
     "rep": 5,
-    "INP": 2200,
-    "LoAFsum": 4678.699999988079,
+    "INP": 2624,
+    "LoAFsum": 5534.100000023842,
     "LoAFcount": 3
   },
   {
     "scenario": "form",
     "variant": "I1",
     "rep": 6,
-    "INP": 2184,
-    "LoAFsum": 4645.800000011921,
+    "INP": 2168,
+    "LoAFsum": 4603.300000011921,
     "LoAFcount": 3
   },
   {
     "scenario": "form",
     "variant": "I1",
     "rep": 7,
-    "INP": 2152,
-    "LoAFsum": 4573,
+    "INP": 2168,
+    "LoAFsum": 4629.699999988079,
     "LoAFcount": 3
   },
   {
     "scenario": "form",
     "variant": "I1",
     "rep": 8,
-    "INP": 2136,
-    "LoAFsum": 5054.799999952316,
+    "INP": 2168,
+    "LoAFsum": 4673.900000035763,
     "LoAFcount": 3
   },
   {
     "scenario": "form",
     "variant": "I1",
     "rep": 9,
-    "INP": 2184,
-    "LoAFsum": 4671.9000000059605,
+    "INP": 2160,
+    "LoAFsum": 4618.299999892712,
     "LoAFcount": 3
   },
   {
     "scenario": "form",
     "variant": "I1",
     "rep": 10,
-    "INP": 2160,
-    "LoAFsum": 4595.5,
+    "INP": 2120,
+    "LoAFsum": 4547.699999988079,
     "LoAFcount": 3
   },
   {
     "scenario": "form",
     "variant": "I1",
     "rep": 11,
-    "INP": 2152,
-    "LoAFsum": 4643.0999999940395,
+    "INP": 2160,
+    "LoAFsum": 4633.500000059605,
     "LoAFcount": 3
   },
   {
     "scenario": "form",
     "variant": "I1",
     "rep": 12,
-    "INP": 2168,
-    "LoAFsum": 4637.699999988079,
+    "INP": 2176,
+    "LoAFsum": 4633.299999952316,
     "LoAFcount": 3
   },
   {
     "scenario": "form",
     "variant": "I1",
     "rep": 13,
-    "INP": 2168,
-    "LoAFsum": 4609.899999976158,
+    "INP": 2176,
+    "LoAFsum": 4622.600000023842,
     "LoAFcount": 3
   },
   {
     "scenario": "form",
     "variant": "I1",
     "rep": 14,
-    "INP": 2168,
-    "LoAFsum": 4633.4000000059605,
+    "INP": 2152,
+    "LoAFsum": 4592.599999964237,
     "LoAFcount": 3
   },
   {
@@ -1556,7 +1556,7 @@
     "variant": "I1",
     "rep": 15,
     "INP": 2160,
-    "LoAFsum": 4575.300000011921,
+    "LoAFsum": 4608.099999964237,
     "LoAFcount": 3
   }
 ]

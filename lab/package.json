@@ -9,6 +9,7 @@
     "test:all": "start-server-and-test serve http://localhost:8000/content.html test && npm run aggregate",
     "aggregate": "node aggregate.js",
     "getCSV": "npm run aggregate",
+    "stats": "node stats.js",
     "win:install-server": "npm ls -g http-server || npm i -g http-server"
   },
   "dependencies": {
