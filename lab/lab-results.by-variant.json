@@ -1,0 +1,1217 @@
+{
+  "meta": {
+    "base": "http://localhost:8000",
+    "reps": 15,
+    "network": {
+      "latencyMs": 150,
+      "downloadMbps": 1.5,
+      "uploadMbps": 0.75
+    },
+    "cpuThrottlingRate": 4,
+    "timestamp": "2025-10-18T16:53:03.267Z"
+  },
+  "data": {
+    "content": {
+      "B0": [
+        {
+          "rep": 1,
+          "INP": 48,
+          "LoAFsum": 295.60000002384186,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 2,
+          "INP": 24,
+          "LoAFsum": 241.5,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 3,
+          "INP": 32,
+          "LoAFsum": 262,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 4,
+          "INP": 32,
+          "LoAFsum": 254.19999998807907,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 5,
+          "INP": 32,
+          "LoAFsum": 241.10000002384186,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 6,
+          "INP": 32,
+          "LoAFsum": 264.19999998807907,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 7,
+          "INP": 32,
+          "LoAFsum": 254.4000000357628,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 8,
+          "INP": 32,
+          "LoAFsum": 261.19999998807907,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 9,
+          "INP": 32,
+          "LoAFsum": 262,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 10,
+          "INP": 32,
+          "LoAFsum": 252.5,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 11,
+          "INP": 32,
+          "LoAFsum": 263.4000000357628,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 12,
+          "INP": 32,
+          "LoAFsum": 252.5,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 13,
+          "INP": 40,
+          "LoAFsum": 254.5999999642372,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 14,
+          "INP": 32,
+          "LoAFsum": 260.30000001192093,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 15,
+          "INP": 24,
+          "LoAFsum": 254.69999998807907,
+          "LoAFcount": 1
+        }
+      ],
+      "I2+I3": [
+        {
+          "rep": 1,
+          "INP": 24,
+          "LoAFsum": 227.19999998807907,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 2,
+          "INP": 24,
+          "LoAFsum": 253.4000000357628,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 3,
+          "INP": 24,
+          "LoAFsum": 261.10000002384186,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 4,
+          "INP": 24,
+          "LoAFsum": 259.30000001192093,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 5,
+          "INP": 24,
+          "LoAFsum": 255.0999999642372,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 6,
+          "INP": 24,
+          "LoAFsum": 252.0999999642372,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 7,
+          "INP": 24,
+          "LoAFsum": 253.10000002384186,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 8,
+          "INP": 24,
+          "LoAFsum": 252.19999998807907,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 9,
+          "INP": 24,
+          "LoAFsum": 252,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 10,
+          "INP": 24,
+          "LoAFsum": 255.0999999642372,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 11,
+          "INP": 24,
+          "LoAFsum": 253,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 12,
+          "INP": 24,
+          "LoAFsum": 253.20000004768372,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 13,
+          "INP": 24,
+          "LoAFsum": 253.19999998807907,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 14,
+          "INP": 24,
+          "LoAFsum": 260.4000000357628,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 15,
+          "INP": 24,
+          "LoAFsum": 253.9000000357628,
+          "LoAFcount": 1
+        }
+      ],
+      "I2+I3+I4": [
+        {
+          "rep": 1,
+          "INP": 32,
+          "LoAFsum": 227.5999999642372,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 2,
+          "INP": 24,
+          "LoAFsum": 253,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 3,
+          "INP": 24,
+          "LoAFsum": 252.89999997615814,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 4,
+          "INP": 32,
+          "LoAFsum": 253.30000001192093,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 5,
+          "INP": 24,
+          "LoAFsum": 259.80000001192093,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 6,
+          "INP": 24,
+          "LoAFsum": 252.9000000357628,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 7,
+          "INP": 24,
+          "LoAFsum": 253.30000001192093,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 8,
+          "INP": 24,
+          "LoAFsum": 261.7999999523163,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 9,
+          "INP": 24,
+          "LoAFsum": 255.39999997615814,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 10,
+          "INP": 24,
+          "LoAFsum": 251,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 11,
+          "INP": 24,
+          "LoAFsum": 253.0999999642372,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 12,
+          "INP": 24,
+          "LoAFsum": 259.69999998807907,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 13,
+          "INP": 32,
+          "LoAFsum": 253.5999999642372,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 14,
+          "INP": 24,
+          "LoAFsum": 253.69999998807907,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 15,
+          "INP": 24,
+          "LoAFsum": 253.4000000357628,
+          "LoAFcount": 1
+        }
+      ],
+      "I1": [
+        {
+          "rep": 1,
+          "INP": 32,
+          "LoAFsum": 225.39999997615814,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 2,
+          "INP": 32,
+          "LoAFsum": 251.69999998807907,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 3,
+          "INP": 32,
+          "LoAFsum": 252.4000000357628,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 4,
+          "INP": 32,
+          "LoAFsum": 252.60000002384186,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 5,
+          "INP": 32,
+          "LoAFsum": 252.80000001192093,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 6,
+          "INP": 32,
+          "LoAFsum": 252,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 7,
+          "INP": 32,
+          "LoAFsum": 254.89999997615814,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 8,
+          "INP": 32,
+          "LoAFsum": 261,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 9,
+          "INP": 32,
+          "LoAFsum": 263.10000002384186,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 10,
+          "INP": 32,
+          "LoAFsum": 262.89999997615814,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 11,
+          "INP": 32,
+          "LoAFsum": 260.39999997615814,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 12,
+          "INP": 32,
+          "LoAFsum": 260.60000002384186,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 13,
+          "INP": 32,
+          "LoAFsum": 253.39999997615814,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 14,
+          "INP": 32,
+          "LoAFsum": 252.69999998807907,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 15,
+          "INP": 32,
+          "LoAFsum": 251.30000001192093,
+          "LoAFcount": 1
+        }
+      ]
+    },
+    "dashboard": {
+      "B0": [
+        {
+          "rep": 1,
+          "INP": 72,
+          "LoAFsum": 317.89999997615814,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 2,
+          "INP": 48,
+          "LoAFsum": 270.30000001192093,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 3,
+          "INP": 48,
+          "LoAFsum": 276.7000000476837,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 4,
+          "INP": 48,
+          "LoAFsum": 270.4000000357628,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 5,
+          "INP": 40,
+          "LoAFsum": 244.5,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 6,
+          "INP": 48,
+          "LoAFsum": 271.4000000357628,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 7,
+          "INP": 48,
+          "LoAFsum": 271.10000002384186,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 8,
+          "INP": 48,
+          "LoAFsum": 269.2999999523163,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 9,
+          "INP": 48,
+          "LoAFsum": 272.5,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 10,
+          "INP": 48,
+          "LoAFsum": 269.60000002384186,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 11,
+          "INP": 48,
+          "LoAFsum": 278.10000002384186,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 12,
+          "INP": 48,
+          "LoAFsum": 277.0999999642372,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 13,
+          "INP": 48,
+          "LoAFsum": 242.89999997615814,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 14,
+          "INP": 48,
+          "LoAFsum": 271,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 15,
+          "INP": 48,
+          "LoAFsum": 276.89999997615814,
+          "LoAFcount": 1
+        }
+      ],
+      "I2+I3": [
+        {
+          "rep": 1,
+          "INP": 8,
+          "LoAFsum": 225.29999995231628,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 2,
+          "INP": 24,
+          "LoAFsum": 268.89999997615814,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 3,
+          "INP": 24,
+          "LoAFsum": 271.89999997615814,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 4,
+          "INP": 24,
+          "LoAFsum": 272.30000001192093,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 5,
+          "INP": 24,
+          "LoAFsum": 259.80000001192093,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 6,
+          "INP": 24,
+          "LoAFsum": 271.2999999523163,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 7,
+          "INP": 24,
+          "LoAFsum": 273.0999999642372,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 8,
+          "INP": 24,
+          "LoAFsum": 276.7999999523163,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 9,
+          "INP": 24,
+          "LoAFsum": 240.60000002384186,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 10,
+          "INP": 24,
+          "LoAFsum": 269.39999997615814,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 11,
+          "INP": 16,
+          "LoAFsum": 278,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 12,
+          "INP": 24,
+          "LoAFsum": 268.5999999642372,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 13,
+          "INP": 24,
+          "LoAFsum": 278.80000001192093,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 14,
+          "INP": 16,
+          "LoAFsum": 270.30000001192093,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 15,
+          "INP": 24,
+          "LoAFsum": 272,
+          "LoAFcount": 1
+        }
+      ],
+      "I2+I3+I4": [
+        {
+          "rep": 1,
+          "INP": 8,
+          "LoAFsum": 225.29999995231628,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 2,
+          "INP": 16,
+          "LoAFsum": 279.9000000357628,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 3,
+          "INP": 24,
+          "LoAFsum": 271.39999997615814,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 4,
+          "INP": 24,
+          "LoAFsum": 279,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 5,
+          "INP": 24,
+          "LoAFsum": 276.69999998807907,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 6,
+          "INP": 24,
+          "LoAFsum": 271.19999998807907,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 7,
+          "INP": 24,
+          "LoAFsum": 270.10000002384186,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 8,
+          "INP": 24,
+          "LoAFsum": 241.80000001192093,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 9,
+          "INP": 24,
+          "LoAFsum": 241.30000001192093,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 10,
+          "INP": 32,
+          "LoAFsum": 243.10000002384186,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 11,
+          "INP": 24,
+          "LoAFsum": 249.5,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 12,
+          "INP": 24,
+          "LoAFsum": 268,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 13,
+          "INP": 24,
+          "LoAFsum": 267.19999998807907,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 14,
+          "INP": 24,
+          "LoAFsum": 268.5999999642372,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 15,
+          "INP": 32,
+          "LoAFsum": 271.5999999642372,
+          "LoAFcount": 1
+        }
+      ],
+      "I1": [
+        {
+          "rep": 1,
+          "INP": 48,
+          "LoAFsum": 225.4000000357628,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 2,
+          "INP": 48,
+          "LoAFsum": 269.30000001192093,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 3,
+          "INP": 48,
+          "LoAFsum": 277.69999998807907,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 4,
+          "INP": 48,
+          "LoAFsum": 270.10000002384186,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 5,
+          "INP": 48,
+          "LoAFsum": 240.4000000357628,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 6,
+          "INP": 40,
+          "LoAFsum": 271,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 7,
+          "INP": 40,
+          "LoAFsum": 267.19999998807907,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 8,
+          "INP": 48,
+          "LoAFsum": 238.69999998807907,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 9,
+          "INP": 48,
+          "LoAFsum": 271.0999999642372,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 10,
+          "INP": 48,
+          "LoAFsum": 276.0999999642372,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 11,
+          "INP": 48,
+          "LoAFsum": 272.19999998807907,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 12,
+          "INP": 40,
+          "LoAFsum": 245.0999999642372,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 13,
+          "INP": 40,
+          "LoAFsum": 270.19999998807907,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 14,
+          "INP": 48,
+          "LoAFsum": 268.0999999642372,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 15,
+          "INP": 40,
+          "LoAFsum": 240.5,
+          "LoAFcount": 1
+        }
+      ],
+      "I5": [
+        {
+          "rep": 1,
+          "INP": 40,
+          "LoAFsum": 225.5999999642372,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 2,
+          "INP": 40,
+          "LoAFsum": 277.9000000357628,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 3,
+          "INP": 40,
+          "LoAFsum": 242.39999997615814,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 4,
+          "INP": 40,
+          "LoAFsum": 279,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 5,
+          "INP": 48,
+          "LoAFsum": 246.69999998807907,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 6,
+          "INP": 40,
+          "LoAFsum": 271.9000000357628,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 7,
+          "INP": 40,
+          "LoAFsum": 271.80000001192093,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 8,
+          "INP": 40,
+          "LoAFsum": 278.19999998807907,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 9,
+          "INP": 40,
+          "LoAFsum": 277.39999997615814,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 10,
+          "INP": 40,
+          "LoAFsum": 271.10000002384186,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 11,
+          "INP": 48,
+          "LoAFsum": 239.80000001192093,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 12,
+          "INP": 48,
+          "LoAFsum": 278.89999997615814,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 13,
+          "INP": 40,
+          "LoAFsum": 277.80000001192093,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 14,
+          "INP": 40,
+          "LoAFsum": 270.5,
+          "LoAFcount": 1
+        },
+        {
+          "rep": 15,
+          "INP": 40,
+          "LoAFsum": 277.9000000357628,
+          "LoAFcount": 1
+        }
+      ]
+    },
+    "form": {
+      "B0": [
+        {
+          "rep": 1,
+          "INP": 2160,
+          "LoAFsum": 4608.400000035763,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 2,
+          "INP": 2184,
+          "LoAFsum": 4645.900000035763,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 3,
+          "INP": 2160,
+          "LoAFsum": 4623.100000023842,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 4,
+          "INP": 2176,
+          "LoAFsum": 4607.599999964237,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 5,
+          "INP": 2136,
+          "LoAFsum": 4641.600000023842,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 6,
+          "INP": 2184,
+          "LoAFsum": 4643.599999964237,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 7,
+          "INP": 2400,
+          "LoAFsum": 5115.800000011921,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 8,
+          "INP": 2192,
+          "LoAFsum": 4654.499999940395,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 9,
+          "INP": 2168,
+          "LoAFsum": 4615.499999940395,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 10,
+          "INP": 2160,
+          "LoAFsum": 4644.199999988079,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 11,
+          "INP": 2184,
+          "LoAFsum": 4638.099999964237,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 12,
+          "INP": 2168,
+          "LoAFsum": 4620.600000023842,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 13,
+          "INP": 2176,
+          "LoAFsum": 4606.799999952316,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 14,
+          "INP": 2168,
+          "LoAFsum": 4620.199999988079,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 15,
+          "INP": 2200,
+          "LoAFsum": 4687.699999928474,
+          "LoAFcount": 3
+        }
+      ],
+      "I2+I3": [
+        {
+          "rep": 1,
+          "INP": 24,
+          "LoAFsum": 2353.5279999761583,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 2,
+          "INP": 24,
+          "LoAFsum": 2390.167,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 3,
+          "INP": 24,
+          "LoAFsum": 2861.0809999642374,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 4,
+          "INP": 24,
+          "LoAFsum": 2371.185000011921,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 5,
+          "INP": 32,
+          "LoAFsum": 2350.279999964237,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 6,
+          "INP": 32,
+          "LoAFsum": 2359.426000011921,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 7,
+          "INP": 24,
+          "LoAFsum": 2360.688999988079,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 8,
+          "INP": 24,
+          "LoAFsum": 2351.062000047684,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 9,
+          "INP": 24,
+          "LoAFsum": 2360.5379999642373,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 10,
+          "INP": 32,
+          "LoAFsum": 2438.6370000238417,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 11,
+          "INP": 24,
+          "LoAFsum": 2362.125,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 12,
+          "INP": 24,
+          "LoAFsum": 2401.554000023842,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 13,
+          "INP": 24,
+          "LoAFsum": 2473.9930000357626,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 14,
+          "INP": 24,
+          "LoAFsum": 2374.276,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 15,
+          "INP": 32,
+          "LoAFsum": 2339.719999988079,
+          "LoAFcount": 2
+        }
+      ],
+      "I2+I3+I4": [
+        {
+          "rep": 1,
+          "INP": 32,
+          "LoAFsum": 2341.8900000476838,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 2,
+          "INP": 32,
+          "LoAFsum": 2389.593000023842,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 3,
+          "INP": 32,
+          "LoAFsum": 2423.187000011921,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 4,
+          "INP": 32,
+          "LoAFsum": 2390.564000023842,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 5,
+          "INP": 24,
+          "LoAFsum": 2491.6429999642373,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 6,
+          "INP": 24,
+          "LoAFsum": 2419.027000023842,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 7,
+          "INP": 32,
+          "LoAFsum": 2354.3549999880793,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 8,
+          "INP": 32,
+          "LoAFsum": 2353.9289999642374,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 9,
+          "INP": 24,
+          "LoAFsum": 2349.6259999761583,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 10,
+          "INP": 24,
+          "LoAFsum": 2423.012000011921,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 11,
+          "INP": 24,
+          "LoAFsum": 2402.0629999642374,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 12,
+          "INP": 24,
+          "LoAFsum": 2410.891000023842,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 13,
+          "INP": 24,
+          "LoAFsum": 2423.4529999880792,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 14,
+          "INP": 24,
+          "LoAFsum": 2387.985000023842,
+          "LoAFcount": 2
+        },
+        {
+          "rep": 15,
+          "INP": 24,
+          "LoAFsum": 2413.555000023842,
+          "LoAFcount": 2
+        }
+      ],
+      "I1": [
+        {
+          "rep": 1,
+          "INP": 2176,
+          "LoAFsum": 4657.5,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 2,
+          "INP": 2168,
+          "LoAFsum": 4637.800000011921,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 3,
+          "INP": 2160,
+          "LoAFsum": 4624.599999964237,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 4,
+          "INP": 2112,
+          "LoAFsum": 4515.399999976158,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 5,
+          "INP": 2232,
+          "LoAFsum": 4770.600000023842,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 6,
+          "INP": 2224,
+          "LoAFsum": 4708.299999952316,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 7,
+          "INP": 2120,
+          "LoAFsum": 4580.399999976158,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 8,
+          "INP": 2152,
+          "LoAFsum": 4599.900000035763,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 9,
+          "INP": 2200,
+          "LoAFsum": 4669.399999976158,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 10,
+          "INP": 2168,
+          "LoAFsum": 4609.600000023842,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 11,
+          "INP": 2176,
+          "LoAFsum": 4642.299999952316,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 12,
+          "INP": 2200,
+          "LoAFsum": 4751.800000071526,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 13,
+          "INP": 2136,
+          "LoAFsum": 4631.099999964237,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 14,
+          "INP": 2216,
+          "LoAFsum": 4711,
+          "LoAFcount": 3
+        },
+        {
+          "rep": 15,
+          "INP": 2112,
+          "LoAFsum": 4528.600000023842,
+          "LoAFcount": 3
+        }
+      ]
+    }
+  }
+}

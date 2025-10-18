@@ -1,9 +1,17 @@
 import fs from 'node:fs';
 import puppeteer from 'puppeteer';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 const BASE = process.env.LAB_BASE || 'http://localhost:8000';
 const REPS = Number(process.env.LAB_REPS || 15);
 const wait = (ms) => new Promise(r => setTimeout(r, ms));
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+// Write outputs to project root by default (one level up from lab/), override via LAB_OUT
+const OUT_DIR = process.env.LAB_OUT || path.resolve(__dirname, '..');
+console.log(`[lab] Output directory: ${OUT_DIR}`);
 
 const scenarios = ['content','dashboard','form'];
 const variants = [
@@ -90,8 +98,9 @@ for (const scenario of scenarios) {
 }
 
 await browser.close();
-fs.writeFileSync('lab-results.json', JSON.stringify(results, null, 2));
-console.log('\nSaved to lab-results.json');
+const OUT_MAIN = path.join(OUT_DIR, 'lab-results.json');
+fs.writeFileSync(OUT_MAIN, JSON.stringify(results, null, 2));
+console.log(`\nSaved to ${OUT_MAIN}`);
 
 // Also save a detailed, grouped view per scenario and variant
 const meta = {
@@ -120,11 +129,12 @@ for (const r of results) {
 }
 
 const detailed = { meta, data: byVariant };
-fs.writeFileSync('lab-results.by-variant.json', JSON.stringify(detailed, null, 2));
-console.log('Saved to lab-results.by-variant.json');
+const OUT_BYVAR = path.join(OUT_DIR, 'lab-results.by-variant.json');
+fs.writeFileSync(OUT_BYVAR, JSON.stringify(detailed, null, 2));
+console.log(`Saved to ${OUT_BYVAR}`);
 
 // --- Write per-scenario×variant files ---
-const pairsDir = 'lab-results/pairs';
+const pairsDir = path.join(OUT_DIR, 'lab-results', 'pairs');
 fs.mkdirSync(pairsDir, { recursive: true });
 
 for (const [sc, vmap] of Object.entries(byVariant)) {
@@ -166,5 +176,6 @@ for (const [sc, vmap] of Object.entries(byVariant)) {
 }
 
 const aggregates = { meta, data: aggData };
-fs.writeFileSync('lab-results.aggregates.json', JSON.stringify(aggregates, null, 2));
-console.log('Saved to lab-results.aggregates.json');
+const OUT_AGG = path.join(OUT_DIR, 'lab-results.aggregates.json');
+fs.writeFileSync(OUT_AGG, JSON.stringify(aggregates, null, 2));
+console.log(`Saved to ${OUT_AGG}`);
