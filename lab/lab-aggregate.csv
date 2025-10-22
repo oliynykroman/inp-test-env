@@ -1,4 +1,0 @@
-scenario,variant,count,p50_INP_ms,p75_INP_ms,loaf_sum_median,loaf_any_%
-content,B0,1,32.0,32.0,292.6,100.0
-dashboard,B0,1,64.0,64.0,230.2,100.0
-form,B0,1,2232.0,2232.0,4561.1,100.0

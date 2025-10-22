@@ -16,7 +16,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const BASE = process.env.LAB_BASE || 'http://localhost:8000';
-const REPS = Number(process.env.LAB_REPS || 1);
+const REPS = Number(process.env.LAB_REPS || 15);
 const OUT_DIR = process.env.LAB_OUT || path.resolve(__dirname, '..');
 
 console.log(`[lab] BASE=${BASE}`);
@@ -24,15 +24,20 @@ console.log(`[lab] REPS=${REPS}`);
 console.log(`[lab] Output directory: ${OUT_DIR}`);
 
 const NETWORK = { latencyMs: 150, downloadMbps: 1.5, uploadMbps: 0.75 };
-const CPU_THROTTLE = 4;
+const CPU_THROTTLE = 8;
 
-const scenarios = ['content', 'dashboard', 'form'];
+const scenarios = ['form'];
 const variants = [
   { name: 'B0',          i1:0, i2:0, i3:0, i4:0, i5:0 },
-  // { name: 'I2+I3',       i1:0, i2:1, i3:1, i4:0, i5:0 },
-  // { name: 'I2+I3+I4',    i1:0, i2:1, i3:1, i4:1, i5:0 },
-  // { name: 'I1',          i1:1, i2:0, i3:0, i4:0, i5:0 },
-  // { name: 'I5',          i1:0, i2:0, i3:0, i4:0, i5:1 } // only for dashboard
+  { name: 'I2',          i1:0, i2:1, i3:0, i4:0, i5:0 },
+  { name: 'I3',          i1:0, i2:0, i3:1, i4:0, i5:0 },
+  { name: 'I4',          i1:0, i2:0, i3:0, i4:1, i5:0 },
+  { name: 'I2+I3',       i1:0, i2:1, i3:1, i4:0, i5:0 },
+  { name: 'I2+I3+I4',    i1:0, i2:1, i3:1, i4:1, i5:0 },
+  { name: 'I2+I4',       i1:0, i2:1, i3:0, i4:1, i5:0 },
+  { name: 'I3+I4',       i1:0, i2:0, i3:1, i4:1, i5:0 },
+  { name: 'I1',          i1:1, i2:0, i3:0, i4:0, i5:0 },
+  { name: 'I5',          i1:0, i2:0, i3:0, i4:0, i5:1 } // only for dashboard
 ];
 
 function qsFrom(v) {
